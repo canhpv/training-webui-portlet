@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+ <modelVersion>4.0.0</modelVersion>
+ <groupId>exo-test</groupId>
+ <artifactId>portlet-test</artifactId>
+ <packaging>war</packaging>
+ <version>1</version>
+ 
+ <parent>
+   <groupId>org.exoplatform.portal</groupId>
+   <artifactId>exo.portal.webui</artifactId>
+   <version>3.4.0.Final</version>
+ </parent>
+ 
+ <build>
+   <plugins>
+   </plugins>
+ </build>
+ 
+ <dependencies>
+   <dependency>
+   <groupId>org.exoplatform.portal</groupId>
+   <artifactId>exo.portal.webui.eXo</artifactId>
+   <version>3.4.0.Final</version>
+   <type>jar</type>
+   <scope>provided</scope>
+   </dependency>
+   <dependency>
+   <groupId>org.exoplatform.portal</groupId>
+   <artifactId>exo.portal.webui.portal</artifactId>
+   <version>3.4.0.Final</version>
+   <type>jar</type>
+   <scope>provided</scope>
+   </dependency>
+ </dependencies>
+</project>
